@@ -26,31 +26,19 @@ This is a **Video Management Application** built using the **MERN stack** (Mongo
 
 ## Environment Setup
 
-1. **Clone the repository**:
+- **Clone the repository**:
    ```bash
    git clone https://github.com/gitusergb/vsmFront
    ```
+      
+- The **backend** handles authentication, video uploads, metadata storage, and providing APIs for the frontend.
+- MongoDB is used to store video metadata and user information.
 
-2. **Navigate to the project directory**:
-   ```bash
-   cd video-management-app
-   ```
+  
+- The **frontend** is built with **React.js** and displays the uploaded videos, providing features like filtering, pagination, and a video player.
+  
 
-3. **Install dependencies for backend and frontend**:
-
-   For the backend:
-   ```bash
-   cd backend
-   npm install
-   ```
-
-   For the frontend:
-   ```bash
-   cd frontend
-   npm install
-   ```
-
-4. **Configure Docker Compose**:
+- **Configure Docker Compose**:
    The application is set up with Docker Compose. To run all services locally, use the following command:
 
    ```bash
@@ -59,18 +47,16 @@ This is a **Video Management Application** built using the **MERN stack** (Mongo
 
    This command will build and start the containers for the frontend, backend, and MongoDB database.
 
-5. **Access the Application**:
+- **Access the Application**:
    - The frontend will be available at `http://localhost:3000 || https://extraordinary-lollipop-0bdcea.netlify.app/login`.
    - The backend API will be available at `http://localhost:5000 ||https://vsm-owg3.onrender.com/`.
 
-6. **Environment Variables**:
+- **Environment Variables**:
    Make sure to configure the necessary environment variables (e.g., JWT secret, MongoDB URI, Google Drive credentials) in `.env` files for both the frontend and backend.
 
 ## Authentication & User Access
 
 The app uses **JWT-based authentication**. Users must log in to access their uploaded videos, and each user will only see their own videos after logging in.
-
-## Video Management Features
 
 ### Upload Videos
 
@@ -80,20 +66,10 @@ Users can upload videos directly from **Google Drive**, and the metadata (such a
 
 A built-in video player allows users to play videos directly from the application.
 
-### Backend
-- The **backend** handles authentication, video uploads, metadata storage, and providing APIs for the frontend.
-- MongoDB is used to store video metadata and user information.
-  
-### Frontend
-- The **frontend** is built with **React.js** and displays the uploaded videos, providing features like filtering, pagination, and a video player.
-
-
-
  **Login and Upload Videos**:
    - Sign up or log in to access the app.
    - Upload videos from Google Drive.
    - Manage your videos using the filtering and pagination features.
-
 
 
 ## Links
@@ -103,16 +79,24 @@ A built-in video player allows users to play videos directly from the applicatio
 
 ## Screenshots
 
+
+<!-- https://i.ibb.co/cx2Nth4/vms-logo.png -->
+
+
 Some screenshots of the application:
 
-- **Login Page**:
-   ![Login Page](<path-to-screenshot>)
+- **Login and Signup Page**:
+   ![Login Page](https://i.ibb.co/Qmtn4Tj/login-register.png)
 
-- **Video Management Dashboard**:
-   ![Dashboard](<path-to-screenshot>)
+- **Videos Management Dashboard**:
+   ![videos_Dashboard](https://i.ibb.co/tmVZx2C/videos-page.png)
+
+- **Videos Upload**:
+
+   ![videos_upload](https://i.ibb.co/5BSWytb/upload-video.png)
 
 - **Video Player**:
-   ![Video Player](<path-to-screenshot>)
+   ![Video Player](https://i.ibb.co/d5VSn39/videoone.png)
 
 
 ## Contributor
