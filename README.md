@@ -99,6 +99,10 @@ Some screenshots of the application:
    ![Video Player](https://i.ibb.co/d5VSn39/videoone.png)
 
 
+## Video Walkthrough
+
+A short video walkthrough demonstrating the core functionality of the application, including login, video upload, filtering, and pagination, can be found [here](https://drive.google.com/file/d/1SnUQrQVxFMaVs5Auh2ggtbT3DPL3WEhs/view?usp=drive_link).
+
 ## Contributor
 
 **Gauri Bidwai**
